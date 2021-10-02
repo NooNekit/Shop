@@ -229,8 +229,6 @@ line-height: 24px;
 
 /* FOOTER FRAME----------------------------*/
 
-.footer {
-}
 .frame {
     display: flex;
     background-image: url(../img/footer/nature.jpg);
@@ -280,9 +278,5 @@ line-height: 24px;
 }
 .copirayting__item:not(last-child) {
     margin: 0 7px 0 0;
-}
-.copirayting__link {
-}
-.copirayting__logo {
 }
 
