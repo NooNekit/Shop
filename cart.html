@@ -72,74 +72,98 @@
 		<div class="header__wrp" id="wrp"></div>
 	</header>
 	<main>
-		<section class="registration">
+		<section class="shopping">
 			<div class="container">
-				<h1 class="registration__title">registration</h1>
+				<h1 class="shopping__title">shopping cart</h1>
 			</div>
 		</section>
 		<div class="wrp container">
-			<section class="form">
-				<form action="">
-					<fieldset class="form__shell">
-						<legend class="form__legend">your name</legend>
-						<label class="form__info">
-							<input class="form__field" type="text" placeholder="first name">
-							<span class="visually-hidden">first name</span>
-						</label>
-						<label class="form__info">
-							<input class="form__field" type="text" placeholder="last name">
-							<span class="visually-hidden">last name</span>
-						</label>
-						<div class="form__box">
-							<label class="form__info">
-								<input type="radio" name="gender" checked>
-								<span class="visually-hidden">male</span>
-								male
-							</label>
-							<label class="form__info">
-								<input type="radio" name="gender">
-								<span class="visually-hidden">man</span>
-								female
-							</label>
+			<section class="basket">
+				<h2 class="visually-hidden">basket</h2>
+				<ul class="basket__list">
+					<li class="basket__item">
+						<img src="img/products/cards-3.jpg" alt="product" width="262" height="306">
+						<div class="basket__box">
+							<h3 class="basket__title">mango people t-shirt</h3>
+							<ul class="basket-text__list">
+								<li class="basket-text__item">
+									<p>Price: <span class="basket__pink">$300</span></p>
+								</li>
+								<li class="basket-text__item">
+									<p>Color: Red</p>
+								</li>
+								<li class="basket-text__item">
+									<p>Size: Xl </p>
+								</li>
+								<li class="basket-text__item">
+									<p>Quantity: 2</p>
+								</li>
+							</ul>
 						</div>
-					</fieldset>
-
-					<fieldset class="form__shell">
-						<legend class="form__legend">login details</legend>
-						<label class="form__info">
-							<input class="form__field" type="email" placeholder="e-mail">
-							<span class="visually-hidden">email</span>
-						</label>
-						<label class="form__info">
-							<input class="form__field" type="password" placeholder="password">
-							<span class="visually-hidden">password</span>
-						</label>
-					</fieldset>
-					<p class="form__text">
-						Please use 8 or more characters, with at least 1 number and a mixture of uppercase and
-						lowercase
-						letters
-					</p>
-					<button class="form__button effects" type="submit">join now</button>
-				</form>
-			</section>
-			<section class="perks">
-				<h2 class="perks__title">loyalty has its perks</h2>
-				<p class="perks__text">Get in on the loyalty program where you can earn points and unlock serious
-					perks. Starting with these as soon as you join:
-				</p>
-				<ul class="perks__list">
-					<li class="perks__item">15% off welcome offer
+						<button class="basket__output effects"><img src="img/menu/cross.svg" alt="output" width="18"
+								height="18"></button>
 					</li>
-					<li class="perks__item">Free shipping, returns and exchanges on all orders
-
+					<li class="basket__item">
+						<img src="img/products/cards-3.jpg" alt="product" width="262" height="306">
+						<div class="basket__box">
+							<h3 class="basket__title">mango people t-shirt</h3>
+							<ul class="basket-text__list">
+								<li class="basket-text__item">
+									<p>Price: <span class="basket__pink">$300</span></p>
+								</li>
+								<li class="basket-text__item">
+									<p>Color: Red</p>
+								</li>
+								<li class="basket-text__item">
+									<p>Size: Xl </p>
+								</li>
+								<li class="basket-text__item">
+									<p>Quantity: 2</p>
+								</li>
+							</ul>
+						</div>
+						<button class="basket__output effects"><img src="img/menu/cross.svg" alt="output" width="18"
+								height="18"></button>
 					</li>
-					<li class="perks__item">$10 off a purchase on your birthday
-
-					</li>
-					<li class="perks__item">Early access to products</li>
-					<li class="perks__item">Exclusive offers & rewards</li>
 				</ul>
+				<div class="basket__button-box">
+					<button class="basket__btn effects">clear shopping cart</button>
+					<button class="basket__btn effects">continue shopping</button>
+				</div>
+			</section>
+			<section class="adress">
+				<form action="">
+					<fieldset class="adress__shell">
+						<legend class="adress__legend">shipping adress</legend>
+						<label class="adress__info">
+							<input class="adress__field" type="text" placeholder="bangladesh">
+							<span class="visually-hidden">country</span>
+						</label>
+						<label class="adress__info">
+							<input class="adress__field" type="text" placeholder="state">
+							<span class="visually-hidden">state</span>
+						</label>
+						<label class="adress__info">
+							<input class="adress__field" type="text" placeholder="postcode / zip">
+							<span class="visually-hidden">postcode / zip</span>
+						</label>
+						<button class="adress__btn effects">get a quote</button>
+				</form>
+				</fieldset>
+
+				<div class="checkout">
+					<ul class="checkout__list">
+						<li class="checkout__item">
+							<p class="checkout__text">sub total $900</p>
+						</li>
+						<li class="checkout__item">
+							<p class="checkout__subtext">grand total <span class="checkout__pink">$900</span></p>
+						</li>
+						<li class="checkout__item">
+							<button class="checkout__btn effects">proceed to checkout</button>
+						</li>
+					</ul>
+				</div>
 			</section>
 		</div>
 	</main>
