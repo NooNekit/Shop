@@ -6,6 +6,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Shop</title>
+	<link rel="stylesheet" href="css/reset.css">
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -18,19 +19,14 @@
 		<div class="container header__container">
 			<div class="header__box">
 				<img class="header__logo" src="img/menu/logo.svg" alt="logo" width="44" height="38">
-				<button class="header__buttom effects">
-					<img class="header__search-ico header__img" src="img/menu/search.svg" alt="search" width="26"
-						height="27">
-				</button>
+				<img class="header__search-ico" src="img/menu/search.svg" alt="search" width="26" height="27">
 			</div>
 			<div class="header__box">
-				<button class="header__burger effects" type="button" id="burger"><img src="img/menu/burger.svg" alt="burger"
-						width="32" height="23"></button>
-				<a class="header__ico" href="#"><img class="header__img effects" src="img/menu/reg.svg" alt="profile"
-						width="29" height="29"></a>
-				<a class="header__ico" href="#"><img class="header__img effects" src="img/menu/basket.svg" alt="basket"
-						width="32" height="29"></a>
-				<nav class="header__menu" id="menu">
+				<button class="header__burger" type="button"><img src="img/menu/burger.svg" alt="burger" width="32"
+						height="23"></button>
+				<a class="header__ico" href="#"><img src="img/menu/reg.svg" alt="profile" width="29" height="29"></a>
+				<a class="header__ico" href="#"><img src="img/menu/basket.svg" alt="basket" width="32" height="29"></a>
+				<nav class="header__menu">
 					<h2 class="header__title">menu</h2>
 					<ul class="header__menu-list">
 						<li class="header__menu-item menu-sub-item">
@@ -63,13 +59,12 @@
 								<li class="menu-sub-item__item">bags</li>
 							</ul>
 						</li>
-						<button class="header__menu-output effects" type="button" id="output"><img src="img/menu/cross.svg"
+						<button class="header__menu-output" type="button"><img src="img/menu/cross.svg"
 								alt="cross"></button>
 					</ul>
 				</nav>
 			</div>
 		</div>
-		<div class="header__wrp" id="wrp"></div>
 	</header>
 	<main>
 		<section class="brand">
@@ -84,27 +79,27 @@
 				<h2 class="visually-hidden">sale</h2>
 				<ul class="sale__list">
 					<li class="sale__item">
-						<a class="sale__link effects" href="#">
-							<p class="sale__text">30% off</p>
-							<h3 class="sale__title">for women</h3>
+						<a class="header__link" href="#">
+							<p class="header__text">30% off</p>
+							<h3 class="header__title">for women</h3>
 						</a>
 					</li>
 					<li class="sale__item">
-						<a class="sale__link effects" href="#">
-							<p class="sale__text">hot deal</p>
-							<h3 class="sale__title">for men</h3>
+						<a class="header__link" href="#">
+							<p class="header__text">hot deal</p>
+							<h3 class="header__title">for men</h3>
 						</a>
 					</li>
 					<li class="sale__item">
-						<a class="sale__link effects" href="#">
-							<p class="sale__text">new arrivals</p>
-							<h3 class="sale__title">for kids</h3>
+						<a class="header__link" href="#">
+							<p class="header__text">new arrivals</p>
+							<h3 class="header__title">for kids</h3>
 						</a>
 					</li>
 					<li class="sale__item">
-						<a class="sale__link effects" href="#">
-							<p class="sale__text">luxirous &amp;&nbsp;trendy</p>
-							<h3 class="sale__title">accesories</h3>
+						<a class="header__link" href="#">
+							<p class="header__text">luxirous &amp;&nbsp;trendy</p>
+							<h3 class="header__title">accesories</h3>
 						</a>
 					</li>
 			</div>
@@ -115,85 +110,73 @@
 				<p class="products__text">shop for items based on what we featured in this week</p>
 				<ul class="products__list">
 					<li class="products__item">
-						<div class="products__cards">
-							<img class="products__img" src="img/products/cards-1.jpg" alt="photo of product">
-							<div class="products__overlay"></div>
-							<button class="products__button" type="button">Add to cart</button>
-						</div>
+						<img class="products__img" src="img/products/cards-1.jpg" alt="photo of product">
 						<div class="products__box">
 							<h3 class="products__subtitle">ellery x m'o capsule</h3>
-							<p class="products__subtext">Known for her sculptural takes on traditional tailoring, Australian
-								arbiter of cool Kym Ellery teams up with Moda Operandi.</p>
+							<p class="products__subtext">known for her sculptural takes on traditional tailoring,
+								australian arbiter of cool kym
+								ellery
+								teams up with moda operandi.</p>
 							<a class="products__link" href="#">$52.00</a>
 						</div>
 					</li>
 					<li class="products__item">
-						<div class="products__cards">
-							<img class="products__img" src="img/products/cards-2.jpg" alt="photo of product">
-							<div class="products__overlay"></div>
-							<button class="products__button" type="button">Add to cart</button>
-						</div>
+						<img class="products__img" src="img/products/cards-2.jpg" alt="photo of product">
 						<div class="products__box">
 							<h3 class="products__subtitle">ellery x m'o capsule</h3>
-							<p class="products__subtext">Known for her sculptural takes on traditional tailoring, Australian
-								arbiter of cool Kym Ellery teams up with Moda Operandi.</p>
+							<p class="products__subtext">known for her sculptural takes on traditional tailoring,
+								australian arbiter of cool kym
+								ellery
+								teams up with moda operandi.</p>
 							<a class="products__link" href="#">$52.00</a>
 						</div>
 					</li>
 					<li class="products__item">
-						<div class="products__cards">
-							<img class="products__img" src="img/products/cards-3.jpg" alt="photo of product">
-							<div class="products__overlay"></div>
-							<button class="products__button" type="button">Add to cart</button>
-						</div>
+						<img class="products__img" src="img/products/cards-3.jpg" alt="photo of product">
 						<div class="products__box">
 							<h3 class="products__subtitle">ellery x m'o capsule</h3>
-							<p class="products__subtext">Known for her sculptural takes on traditional tailoring, Australian
-								arbiter of cool Kym Ellery teams up with Moda Operandi.</p>
+							<p class="products__subtext">known for her sculptural takes on traditional tailoring,
+								australian arbiter of cool kym
+								ellery
+								teams up with moda operandi.</p>
 							<a class="products__link" href="#">$52.00</a>
 						</div>
 					</li>
 					<li class="products__item">
-						<div class="products__cards">
-							<img class="products__img" src="img/products/cards-4.jpg" alt="photo of product">
-							<div class="products__overlay"></div>
-							<button class="products__button" type="button">Add to cart</button>
-						</div>
+						<img src="img/products/cards-4.jpg" alt="photo of product">
 						<div class="products__box">
 							<h3 class="products__subtitle">ellery x m'o capsule</h3>
-							<p class="products__subtext">Known for her sculptural takes on traditional tailoring, Australian
-								arbiter of cool Kym Ellery teams up with Moda Operandi.</p>
+							<p class="products__subtext">known for her sculptural takes on traditional tailoring,
+								australian arbiter of cool kym
+								ellery
+								teams up with moda operandi.</p>
 							<a class="products__link" href="#">$52.00</a>
 						</div>
 					</li>
 					<li class="products__item">
-						<div class="products__cards">
-							<img class="products__img" src="img/products/cards-5.jpg" alt="photo of product">
-							<div class="products__overlay"></div>
-							<button class="products__button" type="button">Add to cart</button>
-						</div>
+						<img src="img/products/cards-5.jpg" alt="photo of product">
 						<div class="products__box">
 							<h3 class="products__subtitle">ellery x m'o capsule</h3>
-							<p class="products__subtext">Known for her sculptural takes on traditional tailoring, Australian
-								arbiter of cool Kym Ellery teams up with Moda Operandi.</p>
+							<p class="products__subtext">known for her sculptural takes on traditional tailoring,
+								australian arbiter of cool kym
+								ellery
+								teams up with moda operandi.</p>
 							<a class="products__link" href="#">$52.00</a>
 						</div>
 					</li>
 					<li class="products__item">
-						<div class="products__cards">
-							<img class="products__img" src="img/products/cards-6.jpg" alt="photo of product">
-							<div class="products__overlay"></div>
-							<button class="products__button" type="button">Add to cart</button>
-						</div>
+						<img class="products__img" src="img/products/cards-6.jpg" alt="photo of product">
 						<div class="products__box">
 							<h3 class="products__subtitle">ellery x m'o capsule</h3>
-							<p class="products__subtext">Known for her sculptural takes on traditional tailoring, Australian
-								arbiter of cool Kym Ellery teams up with Moda Operandi.</p>
+							<p class="products__subtext">known for her sculptural takes on traditional tailoring,
+								australian arbiter of cool kym
+								ellery
+								teams up with moda operandi.</p>
 							<a class="products__link" href="#">$52.00</a>
 						</div>
 					</li>
 				</ul>
-				<button class="products__btn effects" type="button">browse all product</button>
+				<button class="products__btn" type="button">browse all product</button>
 			</div>
 		</section>
 		<section class="feature">
@@ -203,8 +186,8 @@
 					<li class="feature__item">
 						<img class="feature__ico" src="img/feature/icons_1.svg" alt="uniqueness of the store">
 						<div class="feature__box">
-							<h3 class="feature__title">Free delivery</h3>
-							<p class="feature__text">Worldwide delivery on all. Authorit tively morph next-generation
+							<h3 class="feature__title">free delivery</h3>
+							<p class="feature__text">worldwide delivery on all. authorit tively morph next-generation
 								innov
 								tion with extensive
 								models.</p>
@@ -213,8 +196,8 @@
 					<li class="feature__item">
 						<img class="feature__ico" src="img/feature/icons_2.svg" alt="uniqueness of the store">
 						<div class="feature__box">
-							<h3 class="feature__title">Sales & discounts</h3>
-							<p class="feature__text">Worldwide delivery on all. Authorit tively morph next-generation
+							<h3 class="feature__title">sales & discounts</h3>
+							<p class="feature__text">worldwide delivery on all. authorit tively morph next-generation
 								innov
 								tion with extensive
 								models.</p>
@@ -223,8 +206,8 @@
 					<li class="feature__item">
 						<img class="feature__ico" src="img/feature/icons_1.svg" alt="uniqueness of the store">
 						<div class="feature__box">
-							<h3 class="feature__title">Quality assurance</h3>
-							<p class="feature__text">Worldwide delivery on all. Authorit tively morph next-generation
+							<h3 class="feature__title">quality assurance</h3>
+							<p class="feature__text">worldwide delivery on all. authorit tively morph next-generation
 								innov
 								tion with extensive
 								models.</p>
@@ -236,21 +219,15 @@
 	</main>
 	<footer class="footer">
 		<section class="frame">
-			<div class="container frame__container">
+			<div class="container">
 				<h2 class="visually-hidden">frame</h2>
 				<div class="frame__box">
 					<img class="frame__img" src="img/footer/profil.png" alt="profil">
-					<p class="frame__text">“Vestibulum quis porttitor dui! Quisque viverra nunc mi,<span
+					<p class="frame__text">“vestibulum quis porttitor dui! quisque viverra nunc mi,<span
 							class="frame__subtext"> a pulvinar purus
 							condimentum</span>“</p>
 				</div>
-				<form class="frame__form" action="">
-					<label for="frame__desc" class="frame__lead"><span class="frame__sublead"><span
-								class="frame__lead-fixes">subscribe</span></span>
-						for our newletter and promotion</label>
-					<input placeholder="enter your email" type="text" id="frame__desc" class="frame__subscription">
-					<button type="button" class="frame__btn effects">subscribe</button>
-				</form>
+				<!--<form action=""></form>-->
 			</div>
 		</section>
 		<section class="copyright">
@@ -258,19 +235,18 @@
 				<h2 class="visually-hidden">copyright</h2>
 				<p class="copyright__text">© 2021 brand all rights reserved.</p>
 				<ul class="copyright__list">
-					<li class="copyright__item effects"><a class="copyright__link" href="#"><img class="copyright__logo"
+					<li class="copyright__item"><a class="copyright__link" href="#"><img class="copyright__logo"
 								src="img/footer/facebook.svg" alt="facebook"></a></li>
-					<li class="copyright__item effects"><a class="copyright__link" href="#"><img class="copyright__logo"
+					<li class="copyright__item"><a class="copyright__link" href="#"><img class="copyright__logo"
 								src="img/footer/instagram.svg" alt="instagram"></a></li>
-					<li class="copyright__item effects"><a class="copyright__link" href="#"><img class="copyright__logo"
+					<li class="copyright__item"><a class="copyright__link" href="#"><img class="copyright__logo"
 								src="img/footer/pinters.svg" alt="pinters"></a></li>
-					<li class="copyright__item effects"><a class="copyright__link" href="#"><img class="copyright__logo"
+					<li class="copirayting__item"><a class="copirayting__link" href="#"><img class="copirayting__logo"
 								src="img/footer/twitter.svg" alt="twitter"></a></li>
 				</ul>
 		</section>
 		</div>
 	</footer>
-	<script src="main.js"></script>
 </body>
 
 </html>
