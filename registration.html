@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Registration</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,400&display=swap"
+		rel="stylesheet">
+</head>
+
+<body>
+	<header class="header">
+		<div class="container header__container">
+			<div class="header__box">
+				<img class="header__logo" src="img/menu/logo.svg" alt="logo" width="44" height="38">
+				<button class="header__buttom effects">
+					<img class="header__search-ico header__img" src="img/menu/search.svg" alt="search" width="26"
+						height="27">
+				</button>
+			</div>
+			<div class="header__box">
+				<button class="header__burger effects" type="button" id="burger"><img src="img/menu/burger.svg" alt="burger"
+						width="32" height="23"></button>
+				<a class="header__ico" href="#"><img class="header__img effects" src="img/menu/reg.svg" alt="profile"
+						width="29" height="29"></a>
+				<a class="header__ico" href="#"><img class="header__img effects" src="img/menu/basket.svg" alt="basket"
+						width="32" height="29"></a>
+				<nav class="header__menu" id="menu">
+					<h2 class="header__title">menu</h2>
+					<ul class="header__menu-list">
+						<li class="header__menu-item menu-sub-item">
+							<h3 class="menu-sub-item__title">man</h3>
+							<ul class="menu-sub-item__list">
+								<li class="menu-sub-item__item">accessories</li>
+								<li class="menu-sub-item__item">bags</li>
+								<li class="menu-sub-item__item">denim</li>
+								<li class="menu-sub-item__item">t-shirts</li>
+							</ul>
+						</li>
+						<li>
+							<h3 class="menu-sub-item__title">woman</h3>
+							<ul>
+								<li class="menu-sub-item__item">accessories</li>
+								<li class="menu-sub-item__item">jackets &amp;&nbsp;coats</li>
+								<li class="menu-sub-item__item">polos</li>
+								<li class="menu-sub-item__item">t-shirts</li>
+								<li class="menu-sub-item__item">shirts</li>
+							</ul>
+						</li>
+						<li>
+							<h3 class="menu-sub-item__title">kids</h3>
+							<ul>
+								<li class="menu-sub-item__item">accessories</li>
+								<li class="menu-sub-item__item">jackets &amp;&nbsp;coats</li>
+								<li class="menu-sub-item__item">polos</li>
+								<li class="menu-sub-item__item">t-shirts</li>
+								<li class="menu-sub-item__item">shirts</li>
+								<li class="menu-sub-item__item">bags</li>
+							</ul>
+						</li>
+						<button class="header__menu-output effects" type="button" id="output"><img src="img/menu/cross.svg"
+								alt="cross"></button>
+					</ul>
+				</nav>
+			</div>
+		</div>
+		<div class="header__wrp" id="wrp"></div>
+	</header>
+	<main>
+		<section class="registration">
+			<div class="container">
+				<h1 class="registration__title">registration</h1>
+			</div>
+		</section>
+		<div class="wrp container">
+			<section class="form">
+				<form action="">
+					<fieldset class="form__shell">
+						<legend class="form__legend">your name</legend>
+						<label class="form__info">
+							<input class="form__field" type="text" placeholder="first name">
+							<span class="visually-hidden">first name</span>
+						</label>
+						<label class="form__info">
+							<input class="form__field" type="text" placeholder="last name">
+							<span class="visually-hidden">last name</span>
+						</label>
+						<div class="form__box">
+							<label class="form__info">
+								<input type="radio" name="gender" checked>
+								<span class="visually-hidden">male</span>
+								male
+							</label>
+							<label class="form__info">
+								<input type="radio" name="gender">
+								<span class="visually-hidden">man</span>
+								female
+							</label>
+						</div>
+					</fieldset>
+
+					<fieldset class="form__shell">
+						<legend class="form__legend">login details</legend>
+						<label class="form__info">
+							<input class="form__field" type="email" placeholder="e-mail">
+							<span class="visually-hidden">email</span>
+						</label>
+						<label class="form__info">
+							<input class="form__field" type="password" placeholder="password">
+							<span class="visually-hidden">password</span>
+						</label>
+					</fieldset>
+					<p class="form__text">
+						Please use 8 or more characters, with at least 1 number and a mixture of uppercase and
+						lowercase
+						letters
+					</p>
+					<button class="form__button effects" type="submit">join now</button>
+				</form>
+			</section>
+			<section class="perks">
+				<h2 class="perks__title">loyalty has its perks</h2>
+				<p class="perks__text">Get in on the loyalty program where you can earn points and unlock serious
+					perks. Starting with these as soon as you join:
+				</p>
+				<ul class="perks__list">
+					<li class="perks__item">15% off welcome offer
+					</li>
+					<li class="perks__item">Free shipping, returns and exchanges on all orders
+
+					</li>
+					<li class="perks__item">$10 off a purchase on your birthday
+
+					</li>
+					<li class="perks__item">Early access to products</li>
+					<li class="perks__item">Exclusive offers & rewards</li>
+				</ul>
+			</section>
+		</div>
+	</main>
+	<footer class="footer">
+		<section class="frame">
+			<div class="container frame__container">
+				<h2 class="visually-hidden">frame</h2>
+				<div class="frame__box">
+					<img class="frame__img" src="img/footer/profil.png" alt="profil">
+					<p class="frame__text">“Vestibulum quis porttitor dui! Quisque viverra nunc mi,<span
+							class="frame__subtext"> a pulvinar purus
+							condimentum</span>“</p>
+				</div>
+				<form class="frame__form" action="">
+					<label for="frame__desc" class="frame__lead"><span class="frame__sublead"><span
+								class="frame__lead-fixes">subscribe</span></span>
+						for our newletter and promotion</label>
+					<input placeholder="enter your email" type="text" id="frame__desc" class="frame__subscription">
+					<button type="button" class="frame__btn effects">subscribe</button>
+				</form>
+			</div>
+		</section>
+		<section class="copyright">
+			<div class="container copyright__box">
+				<h2 class="visually-hidden">copyright</h2>
+				<p class="copyright__text">© 2021 brand all rights reserved.</p>
+				<ul class="copyright__list">
+					<li class="copyright__item effects"><a class="copyright__link" href="#"><img class="copyright__logo"
+								src="img/footer/facebook.svg" alt="facebook"></a></li>
+					<li class="copyright__item effects"><a class="copyright__link" href="#"><img class="copyright__logo"
+								src="img/footer/instagram.svg" alt="instagram"></a></li>
+					<li class="copyright__item effects"><a class="copyright__link" href="#"><img class="copyright__logo"
+								src="img/footer/pinters.svg" alt="pinters"></a></li>
+					<li class="copyright__item effects"><a class="copyright__link" href="#"><img class="copyright__logo"
+								src="img/footer/twitter.svg" alt="twitter"></a></li>
+				</ul>
+		</section>
+		</div>
+	</footer>
+	<script src="main.js"></script>
+</body>
+
+</html>

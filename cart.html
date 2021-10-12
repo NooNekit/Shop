@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Registration</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,400&display=swap"
+		rel="stylesheet">
+</head>
+
+<body>
+	<header class="header">
+		<div class="container header__container">
+			<div class="header__box">
+				<img class="header__logo" src="img/menu/logo.svg" alt="logo" width="44" height="38">
+				<button class="header__buttom effects">
+					<img class="header__search-ico header__img" src="img/menu/search.svg" alt="search" width="26"
+						height="27">
+				</button>
+			</div>
+			<div class="header__box">
+				<button class="header__burger effects" type="button" id="burger"><img src="img/menu/burger.svg" alt="burger"
+						width="32" height="23"></button>
+				<a class="header__ico" href="#"><img class="header__img effects" src="img/menu/reg.svg" alt="profile"
+						width="29" height="29"></a>
+				<a class="header__ico" href="#"><img class="header__img effects" src="img/menu/basket.svg" alt="basket"
+						width="32" height="29"></a>
+				<nav class="header__menu" id="menu">
+					<h2 class="header__title">menu</h2>
+					<ul class="header__menu-list">
+						<li class="header__menu-item menu-sub-item">
+							<h3 class="menu-sub-item__title">man</h3>
+							<ul class="menu-sub-item__list">
+								<li class="menu-sub-item__item">accessories</li>
+								<li class="menu-sub-item__item">bags</li>
+								<li class="menu-sub-item__item">denim</li>
+								<li class="menu-sub-item__item">t-shirts</li>
+							</ul>
+						</li>
+						<li>
+							<h3 class="menu-sub-item__title">woman</h3>
+							<ul>
+								<li class="menu-sub-item__item">accessories</li>
+								<li class="menu-sub-item__item">jackets &amp;&nbsp;coats</li>
+								<li class="menu-sub-item__item">polos</li>
+								<li class="menu-sub-item__item">t-shirts</li>
+								<li class="menu-sub-item__item">shirts</li>
+							</ul>
+						</li>
+						<li>
+							<h3 class="menu-sub-item__title">kids</h3>
+							<ul>
+								<li class="menu-sub-item__item">accessories</li>
+								<li class="menu-sub-item__item">jackets &amp;&nbsp;coats</li>
+								<li class="menu-sub-item__item">polos</li>
+								<li class="menu-sub-item__item">t-shirts</li>
+								<li class="menu-sub-item__item">shirts</li>
+								<li class="menu-sub-item__item">bags</li>
+							</ul>
+						</li>
+						<button class="header__menu-output effects" type="button" id="output"><img src="img/menu/cross.svg"
+								alt="cross"></button>
+					</ul>
+				</nav>
+			</div>
+		</div>
+		<div class="header__wrp" id="wrp"></div>
+	</header>
+	<main>
+		<section class="shopping">
+			<div class="container">
+				<h1 class="shopping__title">shopping cart</h1>
+			</div>
+		</section>
+		<div class="wrp container">
+			<section class="basket">
+				<h2 class="visually-hidden">basket</h2>
+				<ul class="basket__list">
+					<li class="basket__item">
+						<img src="img/products/cards-3.jpg" alt="product" width="262" height="306">
+						<div class="basket__box">
+							<h3 class="basket__title">mango people t-shirt</h3>
+							<ul class="basket-text__list">
+								<li class="basket-text__item">
+									<p>Price: <span class="basket__pink">$300</span></p>
+								</li>
+								<li class="basket-text__item">
+									<p>Color: Red</p>
+								</li>
+								<li class="basket-text__item">
+									<p>Size: Xl </p>
+								</li>
+								<li class="basket-text__item">
+									<p>Quantity: 2</p>
+								</li>
+							</ul>
+						</div>
+						<button class="basket__output effects"><img src="img/menu/cross.svg" alt="output" width="18"
+								height="18"></button>
+					</li>
+					<li class="basket__item">
+						<img src="img/products/cards-3.jpg" alt="product" width="262" height="306">
+						<div class="basket__box">
+							<h3 class="basket__title">mango people t-shirt</h3>
+							<ul class="basket-text__list">
+								<li class="basket-text__item">
+									<p>Price: <span class="basket__pink">$300</span></p>
+								</li>
+								<li class="basket-text__item">
+									<p>Color: Red</p>
+								</li>
+								<li class="basket-text__item">
+									<p>Size: Xl </p>
+								</li>
+								<li class="basket-text__item">
+									<p>Quantity: 2</p>
+								</li>
+							</ul>
+						</div>
+						<button class="basket__output effects"><img src="img/menu/cross.svg" alt="output" width="18"
+								height="18"></button>
+					</li>
+				</ul>
+				<div class="basket__button-box">
+					<button class="basket__btn effects">clear shopping cart</button>
+					<button class="basket__btn effects">continue shopping</button>
+				</div>
+			</section>
+			<section class="adress">
+				<form action="">
+					<fieldset class="adress__shell">
+						<legend class="adress__legend">shipping adress</legend>
+						<label class="adress__info">
+							<input class="adress__field" type="text" placeholder="bangladesh">
+							<span class="visually-hidden">country</span>
+						</label>
+						<label class="adress__info">
+							<input class="adress__field" type="text" placeholder="state">
+							<span class="visually-hidden">state</span>
+						</label>
+						<label class="adress__info">
+							<input class="adress__field" type="text" placeholder="postcode / zip">
+							<span class="visually-hidden">postcode / zip</span>
+						</label>
+						<button class="adress__btn effects">get a quote</button>
+				</form>
+				</fieldset>
+
+				<div class="checkout">
+					<ul class="checkout__list">
+						<li class="checkout__item">
+							<p class="checkout__text">sub total $900</p>
+						</li>
+						<li class="checkout__item">
+							<p class="checkout__subtext">grand total <span class="checkout__pink">$900</span></p>
+						</li>
+						<li class="checkout__item">
+							<button class="checkout__btn effects">proceed to checkout</button>
+						</li>
+					</ul>
+				</div>
+			</section>
+		</div>
+	</main>
+	<footer class="footer">
+		<section class="frame">
+			<div class="container frame__container">
+				<h2 class="visually-hidden">frame</h2>
+				<div class="frame__box">
+					<img class="frame__img" src="img/footer/profil.png" alt="profil">
+					<p class="frame__text">“Vestibulum quis porttitor dui! Quisque viverra nunc mi,<span
+							class="frame__subtext"> a pulvinar purus
+							condimentum</span>“</p>
+				</div>
+				<form class="frame__form" action="">
+					<label for="frame__desc" class="frame__lead"><span class="frame__sublead"><span
+								class="frame__lead-fixes">subscribe</span></span>
+						for our newletter and promotion</label>
+					<input placeholder="enter your email" type="text" id="frame__desc" class="frame__subscription">
+					<button type="button" class="frame__btn effects">subscribe</button>
+				</form>
+			</div>
+		</section>
+		<section class="copyright">
+			<div class="container copyright__box">
+				<h2 class="visually-hidden">copyright</h2>
+				<p class="copyright__text">© 2021 brand all rights reserved.</p>
+				<ul class="copyright__list">
+					<li class="copyright__item effects"><a class="copyright__link" href="#"><img class="copyright__logo"
+								src="img/footer/facebook.svg" alt="facebook"></a></li>
+					<li class="copyright__item effects"><a class="copyright__link" href="#"><img class="copyright__logo"
+								src="img/footer/instagram.svg" alt="instagram"></a></li>
+					<li class="copyright__item effects"><a class="copyright__link" href="#"><img class="copyright__logo"
+								src="img/footer/pinters.svg" alt="pinters"></a></li>
+					<li class="copyright__item effects"><a class="copyright__link" href="#"><img class="copyright__logo"
+								src="img/footer/twitter.svg" alt="twitter"></a></li>
+				</ul>
+		</section>
+		</div>
+	</footer>
+	<script src="main.js"></script>
+</body>
+
+</html>
