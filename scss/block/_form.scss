@@ -1,11 +1,24 @@
+.registration {
+	background-color: $light-pink;
+	padding: 60px 0 60px 0;
+
+	&__title {
+		@include font(24px, 29px);
+		text-align: left;
+		text-transform: uppercase;
+		color: $dark-pink;
+	}
+}
+
+.wrp {
+	display: flex;
+	justify-content: space-between;
+}
+
 .form {
 	display: flex;
 	flex-direction: column;
 	margin: 64px 0 0 0;
-
-	@include tablet {
-		margin: 40px 22px 0 0;
-	}
 
 		&__shell {
 			display: flex;
@@ -67,10 +80,6 @@
 				position: absolute;
 				right: 29px;
 				top: 20px;
-			}
-
-			@include mobile {
-				margin: 40px 0 40px 0;
 			}
 		}
 }
