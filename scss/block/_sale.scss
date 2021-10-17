@@ -1,28 +1,18 @@
 .sale {
 	margin: 64px 0 0 0;
 
-	@include tablet {
-		margin: 16px 0 0 0;
-	}
-
 	&__list {
 		display: flex;
-      flex-wrap: wrap;
-      justify-content: space-between;
+		flex-wrap: wrap;
+		text-align: center;
 	}
 
 	&__item {
-		width: 31.6%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 360px;
 		height: 260px;
-		background-repeat: no-repeat;
-		background-size: cover;
-		text-align: center;
-
-		@include flex-center;
-
-		&:not(:last-child) {
-			margin: 0 0 30px 0;
-		}
 
 		&:first-child {
 			background-image: url(../img/offer/women.jpg);
@@ -36,24 +26,11 @@
 
 		&:nth-child(2) {
 			background-image: url(../img/offer/man.jpg);
+			margin: 0 30px 30px 30px;
 		}
 
 		&:nth-child(3) {
 			background-image: url(../img/offer/kids.jpg);
-		}
-
-		@include tablet {
-			width: 31.5%;
-			min-height: 168px;
-
-			&:last-child {
-				min-height: 116px;
-			}
-		}
-
-		@include mobile {
-			width: 100%;
-			min-height: 247px;
 		}
 	}
 

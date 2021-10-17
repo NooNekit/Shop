@@ -3,29 +3,17 @@
 
 	&__list {
 		display: flex;
-		flex-wrap: wrap;
-		justify-content: space-around;
+		justify-content: space-between;
 		text-align: center;
 		color: $white;
-		padding: 104px 0;
-
-		@include tablet {
-			padding: 0;
-		}
 	}
 
 	&__item {
-		@include tablet {
-			margin: 48px 0;
-
-			&:last-child {
-				margin: 48px 0 60px 0;
-			}
-		}
+		margin: 104px 0 104px 0;
 	}
 
 	&__box {
-		width: 370px;
+		width: 360px;
 	}
 
 	&__title {
