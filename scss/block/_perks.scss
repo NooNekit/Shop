@@ -1,0 +1,50 @@
+.perks {
+	max-width: 652px;
+	margin: 64px 0 0 0;
+
+	@include mobile {
+		margin: 0 0 100px 0;
+	}
+
+	&__title {
+		@include font(24px, 29px, 300);
+		text-transform: uppercase;
+
+		@include tablet {
+			@include font(16px, 19px, 300);
+		}
+	}
+
+	&__text {
+		@include font(24px, 29px, 300);
+		margin: 22px 0;
+
+		@include tablet {
+			@include font(16px, 19px, 300);
+		}
+	}
+
+	&__list {
+		@include font(24px, 29px, 300);
+
+		@include tablet {
+			@include font(16px, 19px, 300);
+		}
+	}
+
+	&__item {
+		position: relative;
+		margin: 0 0 16px 46px;
+
+		&::before {
+			content: '';
+			position: absolute;
+			background-image: url(/img/regist/check-mark.svg);
+			background-size: 20px 16px;
+			width: 20px;
+			height: 16px;
+			margin: 7px 0 0 -46px;
+			background-repeat: no-repeat;
+		}
+	}
+}

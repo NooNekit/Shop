@@ -1,0 +1,87 @@
+.header {
+	background-color: $black;
+
+	&__container {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		min-height: 75px;
+
+		@include tablet {
+			padding: 0 16px;
+		}
+
+		@include mobile {
+			padding: 0;
+		}
+	}
+
+	&__box {
+		position: relative;
+	}
+
+	&__logo {
+		margin: 0 41px 0 0;
+	}
+
+	&__buttom {
+		background-color: transparent;
+		border: none;
+	}
+
+	&__burger {
+		border: none;
+		background-color: transparent;
+	}
+
+	&__ico {
+		margin: 0 0 0 33px;
+
+		@include mobile {
+			display: none;
+		}
+	}
+
+	&__menu {
+		position: absolute;
+		display: none;
+		width: 233px;
+		height: 765px;
+		left: 134px;
+		top: 55px;
+		background-color: $white;
+		z-index: 2;
+	}
+
+	&__title {
+		@include font(14px, 17px, 700);
+		text-align: left;
+		color: $black;
+		text-transform: uppercase;
+		margin: 37px 0 0 34px;
+	}
+
+	&__menu-list {
+		margin: 0 0 0 34px;
+		text-transform: capitalize
+	}
+
+	&__menu-output {
+		background-color: transparent;
+		border: none;
+		position: absolute;
+		top: 16px;
+		right: 16px
+	}
+
+	&__wrp {
+		width: 100%;
+		height: 764px;
+		background: rgba(0, 0, 0, 0.5);
+		position: absolute;
+		top: 75px;
+		left: 0;
+		display: none;
+		z-index: 1;
+	}
+}

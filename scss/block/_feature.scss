@@ -1,0 +1,35 @@
+.feature {
+	background-color: $black;
+
+	&__list {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-around;
+		text-align: center;
+		color: $white;
+		padding: 104px 0;
+
+		@include tablet {
+			padding: 0;
+		}
+	}
+
+	&__item {
+		@include tablet {
+			margin: 48px 0;
+
+			&:last-child {
+				margin: 48px 0 60px 0;
+			}
+		}
+	}
+
+	&__box {
+		width: 370px;
+	}
+
+	&__title {
+		@include font(20px, 24px);
+		margin: 25px 0 16px 0;
+	}
+}

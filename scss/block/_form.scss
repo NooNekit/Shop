@@ -1,0 +1,76 @@
+.form {
+	display: flex;
+	flex-direction: column;
+	margin: 64px 0 0 0;
+
+	@include tablet {
+		margin: 40px 22px 0 0;
+	}
+
+		&__shell {
+			display: flex;
+			flex-direction: column;
+		}
+
+		&__legend {
+			@include font(16px, 19px, 300);
+			color: $black;
+			text-transform: capitalize;
+		}
+
+		&__info {
+			margin: 21px 0 21px 0;
+		}
+
+		&__field {
+			border: 1px solid $darkgray;
+			width: 360px;
+			height: 45px;
+
+			&::placeholder {
+				@include font(13px, 16px, 300);
+				color: $light-gray;
+				text-transform: capitalize;
+				padding-left: 17px;
+			}
+		}
+
+		&__box {
+			margin: 0 0 35px 0;
+			text-transform: capitalize;
+		}
+
+		&__text {
+			@include font(13px, 16px, 300);
+			text-align: left;
+			color: $gray;
+			width: 358px;
+		}
+
+		&__button {
+			@include font(14px, 17px);
+			background-color: $dark-pink;
+			border: 1px solid $dark-pink;
+			color: $white;
+			font-family: Lato;
+			text-transform: uppercase;
+			padding: 17px 66px 17px 29px;
+			margin: 39px 0 96px 0;
+			position: relative;
+
+			&::after {
+				content: '';
+				background-image: url(/img/regist/arrow.svg);
+				width: 17px;
+				height: 10px;
+				background-size: 17px 10px;
+				position: absolute;
+				right: 29px;
+				top: 20px;
+			}
+
+			@include mobile {
+				margin: 40px 0 40px 0;
+			}
+		}
+}

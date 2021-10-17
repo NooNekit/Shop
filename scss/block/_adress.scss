@@ -1,0 +1,44 @@
+.adress {
+	margin: 113px 0 0 0;
+
+	&__shell {
+		display: flex;
+		flex-direction: column;
+	}
+
+	&__legend {
+		@include font(16px, 19px, 300);
+		text-transform: uppercase;
+	}
+
+	&__field {
+		width: 360px;
+		height: 45px;
+		margin: 20px 0 0 0;
+		border: 1px solid $transparent-gray;
+
+		&::placeholder {
+			text-transform: capitalize;
+			padding: 0 0 0 17px;
+		}
+	}
+
+	&__btn {
+		@include font(11px, 13px, 300);
+		border: 1px solid $transparent-gray;
+		color: $transparent-gray;
+		text-transform: uppercase;
+		background: transparent;
+		padding: 10px 15px;
+		width: 35%;
+		margin: 23px 0 0 0;
+
+		&:hover {
+			background-color: $dark-pink;
+			border: $dark-pink;
+			color: $white;
+		}
+	}
+}
+
+
