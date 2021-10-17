@@ -1,0 +1,59 @@
+.basket {
+
+	&__item {
+		position: relative;
+		display: flex;
+		align-items: center;
+		background: white;
+		filter: drop-shadow(17px 19px 24px rgba(0, 0, 0, 0.13));
+		width: 652px;
+
+		&:not(:last-child) {
+			margin: 96px 0 40px 0;
+		}
+	}
+
+	&__box {
+		width: 211px;
+		padding: 0 0 0 31px;
+	}
+
+	&__title {
+		@include font(24px, 29px);
+		text-transform: uppercase;
+		margin: 0 0 42px 0;
+	}
+
+	&__output {
+		position: absolute;
+		top: 28px;
+		right: 22px;
+		border: none;
+		background: none;
+
+	}
+
+	&__button-box {
+		display: flex;
+		justify-content: space-between;
+		margin: 72px 0 128px 0;
+	}
+
+	&__btn {
+		@include font(14px, 17px, 300);
+		border: 1px solid #A4A4A4;
+		background: transparent;
+		padding: 16px 40px;
+		text-transform: uppercase;
+
+		&:hover {
+			background-color: $dark-pink;
+			border: $dark-pink;
+			color: $white;
+		}
+	}
+
+	&__pink {
+		color: $dark-pink;
+	}
+}
