@@ -6,6 +6,14 @@
 		justify-content: space-between;
 		align-items: center;
 		min-height: 75px;
+
+		@include tablet {
+			padding: 0 16px;
+		}
+
+		@include mobile {
+			padding: 0;
+		}
 	}
 
 	&__box {
@@ -28,6 +36,10 @@
 
 	&__ico {
 		margin: 0 0 0 33px;
+
+		@include mobile {
+			display: none;
+		}
 	}
 
 	&__menu {
@@ -73,22 +85,3 @@
 		z-index: 1;
 	}
 }
-
-.menu-sub-item {
-
-	&__title {
-		@include font(14px, 17px);
-		color: $dark-pink;
-		text-transform: uppercase;
-		margin: 20px 0 0 0;
-	}
-
-	&__item {
-		margin: 12px 0 0 20px;
-	}
-}
-
-.display-block {
-	display: block;
-}
-
